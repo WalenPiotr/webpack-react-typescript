@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "module": "commonjs",
+        "target": "es5",
+        "lib": ["es2017", "dom"],
+        "jsx": "react",
+        "baseUrl": ".",
+        "paths": {
+            "@media": ["src/media.ts"],
+            "@theme": ["src/theme.ts"],
+            "@assets": ["src/assets"]
+        },
+        "downlevelIteration": true,
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "include": ["./src/**/*"]
+}
